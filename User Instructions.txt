@@ -1,12 +1,12 @@
 User Instructions for the Prototype
 #########################################
 
-In general, the following step is only possible if all previous mandatory fields are validly filled.
-Only one graph database can be used, which meets the structural requirements, such as the data set:
+In general, every step is only possible if all previous mandatory fields are validly filled.
+A graph database can only be used, which meets the structural requirements, such our provided graph datadbase.
 
 1) Select Data Set
 	- click "Open"-Button
-	- select a graph database in the file selection dialog
+	- select the graph database directory in the file selection dialog
 
 2) Select Guide Sequence
 	- select a genome from the list
@@ -27,3 +27,23 @@ Only one graph database can be used, which meets the structural requirements, su
 	- click "Show Graph"-Button
 	
 Additional Layout Options:
+
+1) Join
+	- if "Join"-Checkbox is selected --> merged alignment blocks are allowed
+	- must be set before clicking "Show Graph"-Button
+
+2) Thickness Factor
+	- determines the thickness of the edges
+	- must be set before clicking "Show Graph"-Button
+
+3) Space Factor
+	- together with the thickness factor determines the free space between the edges
+	- must be set before clicking "Show Graph"-Button
+
+4) Snapshot
+	- click "Snapshot"-Button --> save the drawn graph layout to a png-file
+	
+5) Color Coding of the Sequences
+	- all sequences have their own Checkbox in the list
+	- if a checkbox is selected --> the edges of the selected sequence are drawn in the assigned color
+	- "Show Graph"-Button does not need to be clicked again
