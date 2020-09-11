@@ -9,9 +9,9 @@ A graph database can only be used, which meets the structural requirements, such
 	- select the graph database directory in the file selection dialog
 
 2) Select Guide Sequence
-	- select a genome from the list
-	- select a sub-structure from the list
-	- define a selection range with the start and end coordinates (must be within the specified limits)
+	- select a genome from the list [e.g., SenAgo]
+	- select a sub-structure from the list [e.g., NC_01149]
+	- define a selection range with the start and end coordinates (must be within the specified limits) [e.g., NC_01149]
 	- setting a length filter in the corresponding text field
 		--> alignment blocks with a length below this threshold are filtered out (setting the value to 1, disables the length filter)
 
