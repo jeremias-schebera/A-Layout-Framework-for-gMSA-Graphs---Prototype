@@ -245,8 +245,8 @@ public class GraphProjectionSugiyama {
         turnAroundLayering();
 
         //Test!!!
-//        int vertexNumber = vertexList.size();
-//        vertexNumber = layerAssignment.deleteDummyEdgesAndCreateDrawingEdges(vertexNumber);
+        int vertexNumber = vertexList.size();
+        vertexNumber = layerAssignment.deleteDummyEdgesAndCreateDrawingEdges(vertexNumber);
         //Test!!!
 
         long timeEnd = System.currentTimeMillis();
